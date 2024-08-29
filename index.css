@@ -1,0 +1,28 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body>h1 {
+  background-color: skyblue;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+body>ul {
+
+  padding-left: 50px;
+  margin:auto;
+  background-color: bisque;
+  border-radius: 5px;
+  width: 80%;
+  height: 45px;
+  justify-content: center;
+  font-size: larger ;
+
+}
+.link:hover {
+  background-color: chocolate;
+}
