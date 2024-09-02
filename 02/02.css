@@ -1,45 +1,56 @@
-*{
+* {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
 }
 
-header, main {
+header,
+main {
   background-color: rgb(244, 240, 255);
   width: 80%;
   margin-left: 10%;
 }
 
-header, main, footer {
+header,
+main,
+footer {
   width: 80%;
   margin-left: 10%;
 }
 
+header img {
+
+  width: 20px;
+  height: 20px;
+}
 
 footer {
   background-color: black;
   color: white;
-   }
+}
 
-header, header ul{
+header,
+header ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  
+
 }
-   
-header{
-  
+
+header {
+
   height: 80px;
   padding: 20px;
   box-sizing: border-box;
 }
+
 ul {
   list-style: none;
 }
 
-.menu{
+.menu {
+  justify-content: space-between;
   margin-right: 10px;
   margin-left: 10px;
   padding: 10px;
@@ -49,7 +60,8 @@ ul {
 
 
 }
-.menu:hover{
+
+.menu:hover {
   background-color: chocolate;
 }
 
@@ -57,10 +69,13 @@ a {
   text-decoration: none;
   color: white;
 }
-li > img {
+
+li>img {
   width: 20px;
   height: 20px;
 }
+
+
 /* nav < ul */
 /* header ul{
   display: flex;
@@ -72,60 +87,74 @@ article {
   margin: 30px;
 }
 
-h1 ,  article > p {
+h1,
+article>p {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-p > span {
+
+p>span {
   display: inline-flex;
   flex-direction: row;
 }
+
 section {
   margin: 10px;
   padding: 20px 40px;
   background-color: white;
   border-radius: 15px;
 }
-.secDiv  {
+
+.secDiv {
   display: flex;
   flex-direction: row;
 }
-.secDiv > div {
+
+.secDiv>div {
   width: 20;
 }
+
 .secDiv img {
   width: 80%;
   border-radius: 50%;
 }
-.secDiv > p {
+
+.secDiv>p {
   width: 80%;
   font-size: medium;
   color: gray;
 }
-@media screen and (max-width : 1024px){
-  header, main, footer {
+
+@media screen and (max-width : 1024px) {
+
+  header,
+  main,
+  footer {
     width: 100%;
     margin-left: 0px;
   }
-  
+
 }
 
-@media screen and (max-width : 768px){
+@media screen and (max-width : 768px) {
 
-  header, header ul{
+  header,
+  header ul {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
   }
+
   header {
     height: auto;
     padding: 20%;
-    }
-   header li{
+  }
+
+  header li {
     width: 90%;
     margin-bottom: 5px;
-   } 
+  }
 }

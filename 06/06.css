@@ -1,0 +1,20 @@
+.secDice {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.secDice > div, .secDice, .dice {
+  margin: 5px;
+}
+.dice {
+  padding: 10px;
+}
+
+.dice > h2, .msg > h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
