@@ -3,8 +3,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
+  width: 1000px;
+  height: 200px;
  
-  width: 100%;
 }
 
 .sec > input {
@@ -12,8 +14,12 @@
   height: 30px;
   margin: 10px;
 }
+#txt1 {
+  text-align: center;
+}
 #txt2 {
   background-color: antiquewhite;
+  text-align: center;
 }
 .sec > button {
   width: 50%;

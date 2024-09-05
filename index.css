@@ -21,8 +21,10 @@ body>ul {
   height: 80%;
   justify-content: center;
   font-size: larger ;
-
+  list-style: none;
 }
+
+
 .link:hover {
   background-color: chocolate;
 }
