@@ -17,6 +17,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 10px;
+ 
 
   background-color: antiquewhite;
 }
@@ -24,7 +26,23 @@ select {
   width: 80%;
   height:30px;
 }
+
 input {
-  width: 75%;
-  height:30px;
+  width: 70%;
+  height: 40px;
+}
+label {
+  width: 10%;
+  height: 40px;
+  padding-left: 10px;
+ 
+
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  font-weight: bold;
+}
+#txt2 {
+  background-color: azure;
 }
