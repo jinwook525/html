@@ -35,7 +35,7 @@ main {
   align-items: center;
 
   height: 500px;
-  border: 5px dotted darkblue;
+  border:2px dotted darkblue;
 }
 section{
   margin: 5px;
