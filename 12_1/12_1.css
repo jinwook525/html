@@ -1,0 +1,121 @@
+#boxofficeMain ,#mvfooter{
+  display: flex;
+
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  
+}
+
+.sec {
+  display: flex;
+
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+#mvfooter {
+  height: 60px;
+  width: 60%;
+  margin-left: 20%;
+  
+  display: flex;
+}
+#mvinfo{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  font-size: small;
+}
+.divDt {
+  width: 80%;
+  height:  60px;
+  background-color: antiquewhite;
+  flex-direction: row;
+
+  border: 1px dotted gray;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type=date], select , fieldset{
+  width: 40%;
+  height: 30px;
+  margin-left:  5px;
+}
+fieldset {
+  font-size: small;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+label {
+  margin-right: 5px;
+  margin-left: 2px;
+}
+.sec >ul {
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.mvli {
+  width: 100%;
+  height: 30px;
+  justify-content:start;
+  align-items: center;
+
+  background-color: cornsilk;
+  margin:  5px, 2px;
+}
+
+.mvli:hover {
+  background-color: chocolate;
+  border-bottom: 1px solid blue;
+}
+
+.rank {
+  width: 20px;
+  height: 20px;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cadetblue;
+  color: white;
+  border-radius: 10%;
+  margin: 10px;
+}
+
+.rank:hover {
+  background-color: brown;
+}
+
+.movieNm {
+  width: 60%;
+  display: inline-flex;
+}
+
+.openDt {
+  width: 20%;
+  display: inline-flex;
+}
+
+.rankInten {
+  width: 10%;
+  display: inline-flex;
+  justify-content: end;
+}
+.spRed {
+  color: red;
+}
+
+.spBlue {
+  color: blue;
+}
+a {
+  text-decoration: none;
+}
