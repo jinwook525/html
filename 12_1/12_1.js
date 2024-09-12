@@ -16,8 +16,8 @@ const getDetail = (movieCd) => {
 
       let actors = data.movieInfoResult.movieInfo.actors;
       let ac= actors.map(item => 
-        `<li class='mvli'>
-        <span class='peoprNm'>${item.peopleNm}</span>
+        `
+        <span class='peopleNm'>${item.peopleNm}</span>
         
          `
       )
@@ -27,7 +27,7 @@ const getDetail = (movieCd) => {
       //   <span class='showTm'>${item.showTm}</span>
       //   `
       // )
-      mvinfo.innerHTML = ac.join('')
+      mvinfo.innerHTML = ac.join(',')
 
     })
     .catch(err => console.error(err))
